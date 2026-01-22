@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sleep Outside | Home</title>
     <link rel="stylesheet" href="/css/style.css" />
+ 
   </head>
 
   <body>
@@ -143,5 +144,29 @@
       &copy;2025 ⛺ SleepOutside ⛺ WDD 330 ⛺ BYU-Idaho for BYU-Pathway
       Worldwide Online
     </footer>
+
+    <!-- Registration Modal -->
+<div id="register-modal" class="register-modal hidden">
+  <div class="register-modal-content">
+    <h2>🎁 Join & Win!</h2>
+    <p>
+      Register today and get entered into our <strong>Free Camping Gear Giveaway</strong>!
+    </p>
+
+    <input 
+      type="email" 
+      id="register-email" 
+      placeholder="Enter your email" 
+      required 
+    />
+
+    <button id="register-submit">Register</button>
+
+    <button id="close-modal" class="close-btn">No Thanks</button>
+  </div>
+</div>
+
+<script src="/js/registerModal.js"></script>
+
   </body>
 </html>
