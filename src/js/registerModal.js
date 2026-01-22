@@ -28,7 +28,7 @@ submitBtn.addEventListener("click", () => {
     return;
   }
 
-  // In a real application you'd send email to server
+
   alert("🎉 Thanks for registering! You are now entered in the giveaway!");
 
   closeModal();
