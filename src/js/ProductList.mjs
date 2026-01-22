@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 /* eslint-disable quotes */
 import { renderListWithTemplate } from "./utils.mjs";
-=======
-import { renderListWithTemplate } from './utils.mjs';
->>>>>>> 8d414db417e8602aac86c5f74b66b8c9e1d6739b
 
 function productCardTemplate(product) {
   return `
@@ -32,7 +28,10 @@ export default class ProductList {
   }
 
   renderList(list) {
- 
+    // const htmlStrings = list.map(productCardTemplate);
+    // this.listElement.insertAdjacentHTML("afterbegin", htmlStrings.join(""));
+
+    // apply use new utility function instead of the commented code above
     renderListWithTemplate(productCardTemplate, this.listElement, list);
 
   }
