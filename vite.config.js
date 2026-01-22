@@ -1,5 +1,8 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default defineConfig({
   root: 'src/',
@@ -15,4 +18,6 @@ export default defineConfig({
       },
     },
   },
-});
+});                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
