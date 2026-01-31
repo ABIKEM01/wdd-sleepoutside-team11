@@ -24,7 +24,7 @@ submitBtn.addEventListener("click", () => {
   const email = emailInput.value.trim();
 
   if (email === "") {
-    alert("Please enter your email to register.");
+    alert("Please enter your email to register...");
     return;
   }
 
